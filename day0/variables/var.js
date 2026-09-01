@@ -15,13 +15,6 @@ var name = "moughit" // can be reassigned
 studying = false // can be changed
 weeks = 1; // can change value alongside its data type
 
-if (hour > 24) {
-    // var name = 'MOUGHIT' // can be re-assigned in its scope
-    console.log(name)
-}
-
-// var name = "MOUGHIT" ? hour > 24 // can't be reassigned with the ternary operator
-
 
 // var variables can be changed
 // Can be declared without giving them a value
