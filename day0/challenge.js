@@ -39,7 +39,7 @@ else {console.log("c is the largest")}
 
 // Leap year checker
 
-let year = 2018;
+let year = 2024;
 
 if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
     console.log(true)
