@@ -73,7 +73,7 @@ console.log('--------------------------------------------')
 
 // Math Callback
 
-const substract = (a, b) => a - b
+const substract = (a, b) => {return a - b}
 
 function calculate(a, b, Operation) {
     return Operation(a, b);

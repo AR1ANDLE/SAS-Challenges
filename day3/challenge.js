@@ -89,7 +89,7 @@ function strCompress(str){
     count = 1;
 }
 
-strCompress('rrrrr')
+strCompress('rabrrrrrajgnakr')
 
 // Anagram Checker
 

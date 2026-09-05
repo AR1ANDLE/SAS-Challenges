@@ -76,3 +76,23 @@ let person = {name: 'Someone', age: '33'}
 
 obj(person)
 console.log(person.age) // Affected the original
+
+// Hoisting 
+
+home() // function declaration are hoisted 
+
+function home() {
+
+}
+
+x() // type error 
+
+var x = () => { // var variable is hoisted but not assigned until this line
+    hoist = 5;
+    var hoist; // declaration moves to the top
+
+    //////////////////////////////////////////
+
+    console.log(back) // error "can't acces before initialization"
+    let back = 5; // let and const have a TDZ : Temporal Dead Zone
+}
